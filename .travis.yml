@@ -1,0 +1,13 @@
+language: generic
+
+sudo: required
+
+services:
+- docker
+
+script:
+ - docker build --build-arg TRAVIS=${TRAVIS} --build-arg TRAVIS_BRANCH=${TRAVIS_BRANCH}
+                --build-arg TRAVIS_COMMIT=${TRAVIS_COMMIT}
+                --build-arg TRAVIS_PULL_REQUEST=${TRAVIS_PULL_REQUEST}
+                --build-arg TRAVIS_REPO_SLUG=${TRAVIS_REPO_SLUG} 
+                -t "codingdojo/engineeringdojo-dockeruser:${TRAVIS_REPO_SLUG//\//_}" -f docker/DOCKERFILE docker/
