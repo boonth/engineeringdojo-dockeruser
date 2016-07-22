@@ -6,7 +6,7 @@ ARG TRAVIS_REPO_SLUG
 ARG TRAVIS_BRANCH
 ARG TRAVIS_COMMIT
 
-RUN dnf install -y -q make git gcc-c++ pkg-config
+RUN dnf install -y -q make git gcc-c++ pkgconfig
 
 USER dojo
 WORKDIR /tmp
