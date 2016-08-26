@@ -1,7 +1,7 @@
 engineeringdojo-dockeruser
 ==========================
 
-Uses docker container from [junghans/engineeringdojo](https://github.com/junghans/engineeringdojo)
+Uses docker container from [boonth/engineeringdojo](https://github.com/boonth/engineeringdojo)
 
-[![Build Status](https://travis-ci.org/junghans/engineeringdojo-dockeruser.svg?branch=master)](https://travis-ci.org/junghans/engineeringdojo-dockeruser)
+[![Build Status](https://travis-ci.org/boonth/engineeringdojo-dockeruser.svg?branch=master)](https://travis-ci.org/boonth/engineeringdojo-dockeruser)
 
